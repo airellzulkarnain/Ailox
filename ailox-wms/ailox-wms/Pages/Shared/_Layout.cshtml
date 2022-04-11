@@ -14,7 +14,7 @@
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Home")? "active":"")">Home</a></li>
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Master")? "active":"")">Master</a></li>
                 <li><a asp-page="" class="button vertical-center-nav clearfix @((ViewData["currentPage"].ToString() == "Operation")? "active":"")">Operation</a></li>
-                <li><button logout class="button vertical-center-nav">@ViewData["Username"]</button></li>
+                <li><button logout class="button vertical-center-nav">[ @ViewData["Username"] ]</button></li>
             </ul>
         </nav>
     </header>

@@ -1,0 +1,33 @@
+﻿@page
+@model ailox_wms.Pages.LoginModel
+@{
+    Layout = null;
+}
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="~/css/reset.css" />
+        <link rel="stylesheet" href="~/css/loginPage.css" />
+        <title>Login</title>
+    </head>
+    <body>
+        <div card>
+            <img src="picts/LogoAiloxWMSbox.gif" />
+            <br />
+            <p>Please login...</p>
+            <form class="clearfix" method="post">
+                <p style="color:red;font-weight:bold;">@ViewData["ErrorMessage"]</p>
+                <div class="control">
+                    <label asp-for="User.username"></label>
+                    <input asp-for="User.username"/>
+                </div>
+                <div class="control">
+                    <label asp-for="User.password"></label>
+                    <input asp-for="User.password"/>
+                </div>
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+    </body>
+</html>

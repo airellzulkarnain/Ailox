@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ailox_wms</title>
+    <link rel="stylesheet" href="~/css/reset.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version=true />
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Home")? "active":"")">Home</a></li>
+                <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Master")? "active":"")">Master</a></li>
+                <li><a asp-page="" class="button vertical-center-nav clearfix @((ViewData["currentPage"].ToString() == "Operation")? "active":"")">Operation</a></li>
+                <li><button logout class="button vertical-center-nav">@ViewData["Username"]</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <main role="main">
+            <div news></div>
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+    @**@
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

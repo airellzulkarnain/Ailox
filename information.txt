@@ -1,0 +1,136 @@
+Untuk header:
+<new line>
+@header disini
+
+untuk subab level 1 hingga seterusnya: 
+<tab*(subab-1)>-<spasi>
+
+untuk menyatakan subab yang lebih rendah memiliki anak menggunakan colon(:)
+
+@Menu
+- General:
+	- 
+	-
+	-
+	-
+	-
+	-
+- Item:
+	- .:browse, about
+	- .:browse, about
+	- 
+	- .:browse, about
+	- 
+	- 
+	- 
+	- 
+- Location:
+	- 
+	- 
+	- 
+	- 
+- User:
+	- 
+	- 
+- Other:
+	- 
+	- 
+
+@Database Table Structure
+table name:user
+column:
+	- full name
+	- username PK
+	- role: 
+		- Admin
+		- Super Admin
+		- Operator
+	- login status:
+		- ONLINE
+		- OFFLINE
+	- IP Address
+	- user status:
+		- ACTIVE
+		- INACTIVE
+		- OBSOLETE
+	- Barcode
+	- Note
+	- default warehouse FK
+	- default suplier FK
+	- Password
+	- User Warehouse FK
+table name:warehouse
+column: 
+	- warehouseID
+	- warehouse type: 
+		- Central Warehouse
+		- Distribution Center
+		- Store
+		- Guest Warehouse /3PL
+	- warehouse code
+	- warehouse name
+	- address
+	- city
+	- Province
+	- Country
+	- Postal Code
+	- Phone
+	- Contact person
+	- Contact Phone
+	- Contact Email
+	- company
+	- sequence
+	- From WH Seq
+	- receiving staging (possible FK)
+	- shipment staging (possible FK)
+
+table name: supplier
+column: 
+	- Code
+	- Initial
+	- Name
+	- Address
+	- City
+	- Provice
+	- Country
+	- Postcode
+	- Phone
+	- Email
+	- Company
+	- Supplier Type:
+		- Supplier
+		- Production
+		- Warehouse
+	- Contact Person
+	- Contact Phone
+	- Contact Email
+	- Status:
+		- ACTIVE
+		- INACTIVE
+	- IHSG Supp Type
+	- LocID
+	- SiteID;CD
+	- BranchID;CD
+	- SuppLocID;CD;Name
+
+Table name: Location Type
+Column: 
+	- Location Type Name:
+		- ACTIVE LOCATION
+		- DRIVE IN LOCATION
+		- MISCELLANEOUS LOCATION
+		- PACKING AREA
+		- PICK AND DROP 
+		- RECIEVING STAGING
+		- RESERVE LOCATION
+		- SHIPPING STAGING
+
+table name: Location Type
+Column: 
+	- Location Class Name
+	- Location Type
+	- Warehouse
+	- Status: 
+		- ACTIVE
+		- INACTIVE
+

@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    ViewData["Username"] = HttpContext.Session.GetString("_username");
+    ViewData["currentPage"] = "Home";
+}
+
+<div>
+    <h1>Welcome</h1>
+    <p>@Html.DisplayFor(model => model.User.username)</p>
+</div>

@@ -1,3 +1,6 @@
+resource link: 
+https://docs.microsoft.com/en-us/aspnet/core/security/authorization/secure-data?view=aspnetcore-6.0
+
 Untuk header:
 <new line>
 @header disini

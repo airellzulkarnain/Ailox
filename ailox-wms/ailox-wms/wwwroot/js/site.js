@@ -2,12 +2,16 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-let overlay = document.createElement("div");
-overlay.className = "overlay";
-overlay.addEventListener("click", () => {
-    document.querySelector(".overlay").remove();
-});
 document.querySelector("[logout]").addEventListener("click", () => {
-    document.body.appendChild(overlay);
-    document.body.appendChild();
+    let x = document.querySelector(".overlay");
+    let y = document.querySelector(".card");
+
+    y.classList = "card active";
+    x.classList = "overlay active";
+
+    x.addEventListener("click", () => {
+        x.classList = "overlay";
+        y.classList = "card";
+    });
 });
+

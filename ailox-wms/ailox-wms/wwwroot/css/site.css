@@ -63,9 +63,28 @@
 
 .overlay{
     position: absolute;
+    display:none;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: #000000ab;
+}
+
+.card {
+    display: none;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 10px 14px 2px, rgba(0, 0, 0, 0.4) -3px 0px 14px 2px;
+    padding: 40px 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.active {
+    display: block;
 }

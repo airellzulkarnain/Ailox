@@ -8,6 +8,8 @@ Untuk header:
 untuk subab level 1 hingga seterusnya: 
 <tab*(subab-1)>-<spasi>
 
+untuk delay exclamation(!)
+
 untuk menyatakan subab yang lebih rendah memiliki anak menggunakan colon(:)
 
 @Menu
@@ -51,12 +53,12 @@ column:
 	- login status:
 		- ONLINE
 		- OFFLINE
-	- IP Address
+	- IP Address !
 	- user status:
 		- ACTIVE
 		- INACTIVE
 		- OBSOLETE
-	- Barcode
+	- Barcode!
 	- Note
 	- default warehouse FK
 	- default suplier FK
@@ -82,19 +84,20 @@ column:
 	- Contact Phone
 	- Contact Email
 	- company
-	- sequence
-	- From WH Seq
-	- receiving staging (possible FK)
-	- shipment staging (possible FK)
+	- sequence!
+	- From WH Seq!
+	- receiving staging (possible FK) !
+	- shipment staging (possible FK) !
 
 table name: supplier
 column: 
+	- ID PK
 	- Code
 	- Initial
 	- Name
 	- Address
 	- City
-	- Provice
+	- Province
 	- Country
 	- Postcode
 	- Phone
@@ -110,11 +113,11 @@ column:
 	- Status:
 		- ACTIVE
 		- INACTIVE
-	- IHSG Supp Type
-	- LocID
-	- SiteID;CD
-	- BranchID;CD
-	- SuppLocID;CD;Name
+	- IHSG Supp Type !
+	- LocID !
+	- SiteID;CD !
+	- BranchID;CD !
+	- SuppLocID;CD;Name !
 
 Table name: Location Type
 Column: 
@@ -128,7 +131,7 @@ Column:
 		- RESERVE LOCATION
 		- SHIPPING STAGING
 
-table name: Location Type
+table name: Location Class
 Column: 
 	- Location Class Name
 	- Location Type

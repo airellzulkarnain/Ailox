@@ -1891,19 +1891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Airell Zulkarnain\\.nuget\\packages\\": {}
+    "C:\\Users\\Mybook 14G\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\ailox-wms.csproj",
+      "projectUniqueName": "C:\\Users\\Mybook 14G\\Documents\\ailox-airell\\Ailox\\ailox-wms\\ailox-wms\\ailox-wms.csproj",
       "projectName": "ailox-wms",
-      "projectPath": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\ailox-wms.csproj",
-      "packagesPath": "C:\\Users\\Airell Zulkarnain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\obj\\",
+      "projectPath": "C:\\Users\\Mybook 14G\\Documents\\ailox-airell\\Ailox\\ailox-wms\\ailox-wms\\ailox-wms.csproj",
+      "packagesPath": "C:\\Users\\Mybook 14G\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mybook 14G\\Documents\\ailox-airell\\Ailox\\ailox-wms\\ailox-wms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Airell Zulkarnain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mybook 14G\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

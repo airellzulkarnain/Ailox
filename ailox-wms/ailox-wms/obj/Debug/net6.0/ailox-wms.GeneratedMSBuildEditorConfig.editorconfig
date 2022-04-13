@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ailox_wms
 build_property.RootNamespace = ailox_wms
-build_property.ProjectDir = C:\Users\Airell Zulkarnain\Documents\Projects\ailox\ailox-wms\ailox-wms\
+build_property.ProjectDir = C:\Users\Mybook 14G\Documents\ailox-airell\Ailox\ailox-wms\ailox-wms\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Airell Zulkarnain\Documents\Projects\ailox\ailox-wms\ailox-wms
+build_property.MSBuildProjectDirectory = C:\Users\Mybook 14G\Documents\ailox-airell\Ailox\ailox-wms\ailox-wms
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Error.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Index.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Login.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Logout.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Privacy.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/_ViewImports.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/_ViewStart.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Airell Zulkarnain/Documents/Projects/ailox/ailox-wms/ailox-wms/Pages/Shared/_Layout.cshtml]
+[C:/Users/Mybook 14G/Documents/ailox-airell/Ailox/ailox-wms/ailox-wms/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7u0bqlurve

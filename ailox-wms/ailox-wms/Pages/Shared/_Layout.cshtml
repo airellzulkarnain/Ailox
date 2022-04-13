@@ -10,7 +10,9 @@
 <body>
     <header>
         <nav class="nav clearfix">
-            <img src="~/picts/LogoAiloxWMS.gif" class="vertical-center-nav" />
+            <div class="vertical-center-nav img">
+                <img src="~/picts/LogoAiloxWMS.gif" height="22" />
+            </div>
             <ul>
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Home")? "active":"")">Home</a></li>
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Master")? "active":"")">Master</a></li>
@@ -40,3 +42,5 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+@*By Airell Zulkarnain*@
+<!-- By Airell Zulkarnain -->

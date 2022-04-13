@@ -6,7 +6,15 @@
     ViewData["currentPage"] = "Home";
 }
 
-<div>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align: center;font-weight:bold;">
     <h1>Welcome</h1>
     <p>@Html.DisplayFor(model => model.User.username)</p>
 </div>
+
+@section userData {
+    <p>@Html.DisplayNameFor(model => model.User.username) : @Html.DisplayFor(model => model.User.username)</p>
+    <form method="post">
+        <button type="submit" asp-page="./Logout" class="button">Logout</button>
+    </form>
+    <button class="button">Cancel</button>
+}

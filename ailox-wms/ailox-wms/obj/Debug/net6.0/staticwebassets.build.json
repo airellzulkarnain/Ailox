@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6qp/7LUP68oqdDHcyUtMa9aSzu9lWrR0Rm0MCBivNiA=",
+  "Hash": "3on60RMxSdbpUVwgzX8k2htt5ned9tRtLRTiKskMiZQ=",
   "Source": "ailox-wms",
   "BasePath": "_content/ailox-wms",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\wwwroot\\picts\\LogoAiloxWMS.gif",
+      "SourceId": "ailox-wms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\wwwroot\\",
+      "BasePath": "_content/ailox-wms",
+      "RelativePath": "picts/LogoAiloxWMS.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\picts\\LogoAiloxWMS.gif"
     },
     {
       "Identity": "C:\\Users\\Airell Zulkarnain\\Documents\\Projects\\ailox\\ailox-wms\\ailox-wms\\wwwroot\\picts\\LogoAiloxWMSbox.gif",

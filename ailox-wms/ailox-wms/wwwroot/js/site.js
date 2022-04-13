@@ -15,3 +15,7 @@ document.querySelector("[logout]").addEventListener("click", () => {
     });
 });
 
+document.querySelector(".overlay + .card > .button").addEventListener("click", () => {
+    document.querySelector(".overlay").classList = "overlay";
+    document.querySelector(".card").classList = "card";
+});

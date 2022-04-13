@@ -9,11 +9,12 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
+        <nav class="nav clearfix">
+            <img src="~/picts/LogoAiloxWMS.gif" class="vertical-center-nav" />
             <ul>
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Home")? "active":"")">Home</a></li>
                 <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Master")? "active":"")">Master</a></li>
-                <li><a asp-page="" class="button vertical-center-nav clearfix @((ViewData["currentPage"].ToString() == "Operation")? "active":"")">Operation</a></li>
+                <li><a asp-page="" class="button vertical-center-nav @((ViewData["currentPage"].ToString() == "Operation")? "active":"")">Operation</a></li>
                 <li><button logout class="button vertical-center-nav">[ @ViewData["Username"] ]</button></li>
             </ul>
         </nav>
@@ -28,15 +29,14 @@
     <footer>
     @**@
     </footer>
-
+    <div class="overlay"></div>
+    <div class="card">
+        @RenderSection("userData", required:true)
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-    <div class="overlay"></div>
-    <div class="card">
-
-    </div>
 </body>
 </html>
